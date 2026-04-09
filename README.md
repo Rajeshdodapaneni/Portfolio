@@ -9,15 +9,17 @@ Easy navigation and readable structure
 🛠️ Technologies Used
 HTML5
 CSS3
+
 📂 Sections Included
 Home – Introduction and overview
 About Me – Brief background and career interests
 Skills – Technical skills and tools
 Projects – Showcasing my work with descriptions
 Contact – Ways to connect with me
-🎯 Purpose
-This portfolio website is created to:
 
+🎯 Purpose
+
+This portfolio website is created to:
 Present my projects and skills
 Demonstrate my front-end development fundamentals
 Serve as a professional online presence for job and internship opportunities
