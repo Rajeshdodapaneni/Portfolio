@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: black; */
+    font-family: sans-serif;
+}
+body{
+    background-color: rgba(22, 21, 21, 0.732);
+    
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    display:flex;
+    position: relative;
+
+}
+.list{
+    display: flex;
+    gap: 7rem;
+    position: fixed;
+    height: 10vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left: 0px;
+    background-color: rgba(255, 255, 0, 0.464);
+    width: 100%;
+}
+.list li{
+    text-decoration: none;
+    list-style: none;
+    margin-left: 50px;
+}
+.list  li a{
+    color: #ffff;
+    cursor: pointer;
+    /* align-items: center; */
+    position: absolute;
+    font-weight: bolder;
+    text-decoration: none;
+    
+       
+}
+.header ul li a:hover{
+    color: blue;
+    background-color: chocolate;
+}
+.details h2{
+    margin-top: -40%;
+    text-align: center;
+    text-decoration: underline;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: cyan;
+}
+.details p{
+    color:white;
+    font-size: 20px;
+    text-align: center;
+    line-height: 50PX;
+    margin-top: -20px;
+    /* text-align: left; */
+    font-weight: bold;
+    
+
+}
+.details h3{
+    color: yellowgreen;
+    text-align: center;
+    margin-top: 15px;
+
+
+}
+.details span{
+    color: chocolate;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    margin-left: 40%;
+    line-height: -30px;
+}
+.para{
+    margin-left: -220px;
+}
+.left h2{   
+    margin-left: 35%;
+    line-height: 50px;
+    color: yellowgreen;
+}
+.right h2{
+    color: azure;
+    line-height: 50px;
+    margin-left: 55%;
+    margin-top: -20%;
+}
+.education h2{
+    color: cyan;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: underline;
+    margin-top: 15px;
+}
+.education img{
+    border-radius: 50%;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.school{
+    margin-left: 25%;
+    margin-top: -12%;
+
+}
+.box1,.box2,.box3{
+    border: solid 2px white;
+    height: 180px;
+    width: 70%;
+    border-radius: 25px;
+    margin-left: 50px;
+}
+.school h2{
+    text-decoration: none;
+    color: azure;
+    font-size: 20px;
+    margin-top: 20px;
+    line-height: 35px;
+}
+.school span{
+    text-decoration: underline;
+    font-family: monospace;
+    font-size: 35px;
+    color: chocolate;
+    
+}

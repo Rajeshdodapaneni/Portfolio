@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: black; */
+    font-family: sans-serif;
+}
+/* body{
+    background-color: black;
+} */
+.header{
+    min-height: 100vh;
+    width: 100%;
+    display:flex;
+    position: relative;
+    position:fixed;
+}
+.list{
+    display: flex;
+    gap: 7rem;
+    position: fixed;
+    height: 10vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left: 0px;
+    background-color: rgba(255, 255, 0, 0.433);
+    width: 100%;
+}
+.list li{
+    text-decoration: none;
+    list-style: none;
+    margin-left: 50px;
+}
+.list  li a{
+    color: #fff;
+    cursor: pointer;
+    /* align-items: center; */
+    position: absolute;
+    text-decoration: none;
+       
+}
+.header ul li a:hover{
+    color: blue;
+    background-color: chocolate;
+}
+.skills h1{
+    color:cyan;
+    text-decoration: underline;
+    font-family: cursive;
+    align-items: center;
+    margin-top: -220%;
+    text-align: center;  
+    margin-left:0px;
+    
+}
+.container {
+    width: 180%; /* Full width */
+    margin-top:-100px;
+    align-items: center;
+    margin-left: -900px;
+} 
+  
+  /* .skills {
+    text-align: right; 
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+    color: white; 
+  } */
+  
+  /* .html {width: 75%; background-color: #04AA6D;} /* Green */
+  /* .css {width: 80%; background-color: #2196F3;} Blue */
+  /* .js {width: 90%; background-color: #f44336;} Red */ */
+
+/* .main{
+    margin-top: -25%;
+}
+.main p{
+    color: #f44336;
+} */
+*{
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+    font-family: sans-serif;
+
+}
+
+body{
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    min-height: 100vh;
+
+    background: #222;
+
+}
+
+.container{
+
+    position: relative;
+
+    display: flex;
+
+    justify-content: center;
+/* 
+    align-items: center; */
+
+    /* flex-wrap: wrap; */
+
+    gap: 50px;
+    margin-left: -150px;
+    margin-top: 0px;
+
+}
+
+.container .progress{
+
+    position: relative;
+
+    width: 250px;
+
+    height: 250px;
+
+    background: #444 linear-gradient(to right, transparent 50%,
+
+    var(--clr) 0);
+    
+    border-radius: 50%;
+
+    color: #fff;
+    margin-top: 0;
+
+}
+
+.container .progress h3{
+
+    position: absolute;
+
+    top: 50%;
+
+    left: 50%;
+
+    transform: translate(-50%,-50%);
+
+    font-size:50px;
+
+    z-index: 1;
+
+    font-weight: 500;
+
+}
+
+.container .progress h3 span{
+
+    font-size: 35px;
+
+    font-weight: 400;
+
+}
+
+.container .progress h4{
+
+    position: absolute;
+
+    top: 65%;
+
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    text-transform: uppercase;
+
+    z-index: 1;
+
+    font-weight: 700;
+
+    color: var(--clr);
+    font-size: 25px;
+
+} 
+
+.container .progress::before{
+
+    content: '';
+
+    display: block;
+
+    height: 100%;
+
+    margin-left: 50%;
+
+    transform-origin: left;
+
+    border-radius: 0 100% 100% 0 / 50%;
+
+}
+
+.container .progress::after{
+
+    content: '';
+
+    position: absolute;
+
+    inset: 10px;
+
+    border-radius: 50%;
+
+    background: #222;
+
+}
+
+.container .progress::before{
+
+    background: var(--clr);
+
+    transform: rotate(calc(((var(--i) - 50) * 0.01turn)));
+
+}
+
+/* If the value is less than 50, then */
+
+.container .progress.less::before{
+
+    background: #444;
+
+    transform: rotate(calc(((var(--i) - 0) * 0.01turn)));
+
+}

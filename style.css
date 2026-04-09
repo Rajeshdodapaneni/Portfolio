@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: black; */
+    font-family: sans-serif;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    display:flex;
+    position: relative;
+}
+.list{
+    display: flex;
+    gap: 10rem;
+    position: fixed;
+    height: 9vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+    left: 0px;
+    background-color: rgba(255, 255, 0, 0.433);
+    width: 100%;
+}
+.list li{
+    text-decoration: none;
+    list-style: none;
+    margin-left: 0px;
+}
+.list  li a{
+    color: #f3f0f0e4;
+    cursor: pointer;
+    /* align-items: center; */
+    position: absolute;
+    text-decoration: none;
+    font-weight: bold;
+       
+}
+.header ul li a:hover{
+    color: blue;
+    background-color: chocolate;
+}
+
+.left, .right{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.left{
+    background: #1f1e1e;
+    width: 70%;
+    padding-left: 10rem;
+}
+.right{
+    background: linear-gradient(-45deg,#3054a1,#393434);
+    width: 30%;
+}
+.content{
+    margin-left: 20px;
+
+}
+.content h2{
+    font-size: 35px;
+    color:chocolate;
+}
+.content span{
+    color: #fff;
+}
+.content p{
+    font-size: 15px;
+    color: #bbb;
+
+}
+.icons .fa-brands{
+    color: #bbb;
+    font-size: 30px;
+}
+.icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+
+}
+.buttons{
+    padding-top: 20px;
+}
+.buttons button{
+    height: 30px;
+    width: 100px;
+    background: #3877ff;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+.buttons button:hover{
+    color:chocolate;
+    background-color: yellowgreen;
+
+}
+.icons .fa-brands:hover{
+    cursor: pointer;
+    background: linear-gradient(#fff, #153f99,rgb(110, 106, 106));
+}
+.design .circle{
+    aspect-ratio: 1;
+    position: absolute;
+    border-radius: 50%;
+    top: 52%;
+    left: 70%;
+    transform:translate(-50%,-50%);
+}
+    .circle:nth-child(1){
+        background: linear-gradient(90deg,transparent 50%,#222020 50%);
+        width: 38rem;
+
+    }
+.circle:nth-child(2){
+    width: 30rem;
+    background-image:url(./images/Rajesh1.jpeg);
+    background-size: 99.7%;
+    background-repeat: no-repeat;
+    margin-left: 14px;
+    box-shadow: 0 0 15px white,
+    inset 0 0 1rem #fff,
+    0 0 1rem #3877ff,
+    inset 0 0 2rem #3877ff,
+    0 0 1rem #3877ff,
+    inset 0 0 2rem #3877ff; 
+
+    border: 10px solid white;
+}
+.list li a::after{
+    position: absolute;
+    background: #fff;
+}
+.list li a:active{
+    color:blue;
+}
